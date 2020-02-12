@@ -8,43 +8,36 @@
 hats = Product.create(title: 'Hats',routeName: 'hats')
 hat_items = [
  {
-    id: 1,
     name: 'FreePort',
     imageUrl: 'https://smhttp-ssl-77968-media.nexcesscdn.net/pub/media/catalog/product/cache/0a85dacd443c5584803dba7fcdb616a5/f/r/freeport-ii-fedora_10518_coffe_01_59.jpg',
     price: 75
   },
   {
-    id: 2,
     name: 'Gate Bucket',
     imageUrl: 'https://smhttp-ssl-77968-media.nexcesscdn.net/pub/media/catalog/product/cache/0a85dacd443c5584803dba7fcdb616a5/g/a/gate-bucket-hat_10579_dckcm_01_90.jpg',
     price: 39
   },
   {
-    id: 3,
     name: 'Tile Trucker',
     imageUrl: 'https://images.boardriders.com/global/rvca-products/all/default/medium-large2/wahwwrti_rvca,m_hco_sd1.jpg',
     price: 25
   },
-  {
-    id: 4,
+  { 
     name: 'Demote Floral',
     imageUrl: 'https://images.boardriders.com/global/rvca-products/all/default/medium-large2/mahw1rds_rvca,fg_brm_sd1.jpg',
     price: 28
   },
-  {
-    id: 5,
+  { 
     name: 'Aloha Camo',
     imageUrl: 'https://images.boardriders.com/global/rvca-products/all/default/medium-large2/mahwurac_rvca,fg_cam_frt1.jpg',
     price: 45
   },
-  {
-    id: 6,
+  {  
     name: 'Billabong straw',
     imageUrl: 'https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dw0b7d9048/product_images/0641003220001NEW_01_014.jpg?sw=458&sh=710&sm=fit',
     price: 22
   },
-  {
-    id: 7,
+  {  
     name: 'Kanji Rose',
     imageUrl: 'https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dwd559c53d/product_images/0641522910032NEW_01_569.jpg?sw=458&sh=710&sm=fit',
     price: 18
